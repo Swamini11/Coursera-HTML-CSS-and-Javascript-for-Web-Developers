@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Anatomy of CSS Rule</title>
+        <style>
+         /*   p{
+                color : blue;
+                font-size: 20px;
+                width: 200px;
+            }
+            h1{
+                color: green;
+                font-size: 36px;
+                text-align: center;
+            }  */
+            h2{  /*all h2 elemnents */
+                color: red;
+                text-align: center;
+            }
+            .highlight{    /*all with class='highlight' */
+                font-size: 20px;
+                font-weight: bold;
+                font-style: italic;
+                background-color: green;
+                opacity: 0.6;
+            }
+
+            #mainPoint{    /*main point */
+                font-size: 24px;
+                font-weight: bold;
+                background-color: red;
+                opacity: 0.7;
+            }
+
+            p, h1{    /*all h1 and p elemnents */
+                    color: blue;
+                    text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Anatomy of a CSS Rule</h1>
+        <h2>Subheading 1</h2>
+        <p class="highlight">Hello World</p>
+        <h2>Subheading 2(h2)</h2>
+        <p class="highlight">Hello All</p>
+        <div>This is main. Attribute"<span id="mainPoint"> id="mainPoint".</span></div>
+    </body>
+</html>
